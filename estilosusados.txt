@@ -1,0 +1,90 @@
+# Tipos de estilos que podrian ayudarles
+
+font-family
+Uso: Define la familia tipográfica (la fuente) para el texto.
+Ejemplo: Arial, sans-serif; (pueden buscar fuentes que les gusten en https://fonts.google.com/)
+
+
+background-color
+Uso: Establece el color de fondo de un elemento.
+Ejemplos: #ce5641, #007BFF (para el fondo y el boton)
+
+
+padding
+Uso: Añade un espacio de relleno dentro de un elemento, entre su contenido y su borde.
+Ejemplos: 20px, 10px
+
+
+max-width
+Uso: Define el ancho máximo que un elemento puede llegar a tener. Es útil para que los diseños no se estiren demasiado en pantallas grandes.
+Ejemplo: 400px
+
+
+margin
+Uso: Crea un espacio de margen por fuera del borde de un elemento, para separarlo de otros elementos.
+Ejemplo: 0 auto; (un truco común para centrar un contenedor).
+
+
+border
+Uso: Establece un borde visible alrededor de un elemento. Se puede definir su grosor, estilo y color.
+Ejemplos: 4px solid #000000, none
+
+
+font-size
+Uso: Define el tamaño de la letra.
+Ejemplo: 48px
+
+
+text-align
+Uso: Alinea el contenido de texto dentro de un elemento.
+Ejemplo: center
+
+
+color
+Uso: Establece el color del texto.
+Ejemplos: #333333, #FFFFFF
+
+
+margin-top
+Uso: Añade un margen o separación específicamente en la parte superior de un elemento.
+Ejemplo: 0
+
+
+margin-bottom
+Uso: Añade un margen o separación específicamente en la parte inferior de un elemento.
+Ejemplo: 15px
+
+
+display
+Uso: Cambia el comportamiento de visualización de un elemento. Permite, por ejemplo, que un elemento ocupe toda una línea o se coloque junto a otros.
+Ejemplos: block, flex
+
+
+font-weight
+Uso: Define el grosor de la fuente, es decir, si es normal o negrita.
+Ejemplos: bold, normal
+
+
+width
+Uso: Establece el ancho de un elemento.
+Ejemplo: 100%
+
+
+box-sizing
+Uso: Controla cómo se calcula el tamaño total de un elemento. border-box es muy útil porque hace que el padding y el border se incluyan en el ancho total definido.
+Ejemplo: border-box
+
+
+align-items
+Uso: Cuando se usa con display: flex, alinea los elementos hijos verticalmente.
+Ejemplo: center
+
+
+margin-left
+Uso: Añade un margen o separación específicamente en el lado izquierdo de un elemento.
+Ejemplo: 8px
+
+
+cursor
+Uso: Cambia el ícono del puntero del mouse cuando pasa sobre un elemento, para indicar que es interactivo.
+Ejemplo: pointer

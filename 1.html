@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio de Formulario con CSS y JS</title> <!-- El titulo de la pestaña del navegador (se ve arriba en el tab de pestañas) -->
+    <link rel="stylesheet" href="styles2.css"> <!-- Aqui se enlaza el archivo CSS en este caso solo con el nombre porque el archivo esta en la misma carpeta, sino se ingresa el path relativo -->
+    <script src="script.js"></script> <!-- Aqui se enlaza el archivo JS, funciona igual que arriba -->
+</head>
+<body>
+
+    <div class="form-container">
+        <!--  Puedes revisar la documentacion de los formularios aquí -> https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_forms  -->
+        <h1>Contáctanos</h1>
+        <img src="ulima.png" alt="Logo de la Universidad de Lima" style="display: block; margin: 0 auto 20px; max-width: 100%;">
+        
+        <form id="formulario-contacto" action="#" method="post">
+            <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre">
+            </div>
+
+            <div class="form-group">
+                <label for="correo">Correo Electrónico:</label>
+                <input type="email" id="correo" name="correo">
+            </div>
+
+            <div class="form-group">
+                <label>Tipo de Consulta:</label>
+                <div class="radio-option">
+                    <input type="radio" id="consulta_general" name="tipo_consulta" value="general">
+                    <label for="consulta_general">Consulta General</label>
+                </div>
+                <div class="radio-option">
+                    <input type="radio" id="soporte_tecnico" name="tipo_consulta" value="soporte">
+                    <label for="soporte_tecnico">Soporte Técnico</label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="checkbox-option">
+                     <input type="checkbox" id="boletin" name="boletin">
+                     <label for="boletin">Suscribirme al boletín universitario</label>
+                </div>
+            </div>
+
+            <button type="submit" id="boton-enviar">Enviar</button>
+        </form>
+        <div id="mensaje-respuesta">Completa todos los campos con tu información y presiona el botón Enviar</div>
+    </div> <!-- Aqui cierra el formulario -->
+
+    <br><br>
+    <button id="boton-misterioso">No me aprietes soy timido >.< </button>
+    <div id="contenedor-gif"></div> <!-- Aqui se mostrara el gif -->
+
+</body>
+</html>
